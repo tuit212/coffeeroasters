@@ -1,0 +1,30 @@
+.hero{
+    width: 100%;
+    padding: 117px 0 117px 85px;
+    border-radius: 20px;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    background-position: center;
+}
+.hero__title{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    line-height: 72px;
+    font-size: 72px;
+    color: #FEFCF7;
+}
+.hero__text{
+    width: 450px;
+    margin-top: 32px;
+    font-weight: 400;
+    line-height: 26px;
+    font-size: 16px;
+    color: #d8d2d2;
+}
+.hero__link{
+    margin-top: 56px;
+    @include contact;
+}
+.hero__link:hover{
+    @include contact-hover;
+}

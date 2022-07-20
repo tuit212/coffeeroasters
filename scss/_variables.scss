@@ -1,0 +1,24 @@
+@mixin center ($js) {
+    display: flex;
+    align-items: center;
+    justify-content: $js;
+}
+
+@mixin contact {
+    display: block;
+    width: 217px;
+    padding: 16px 0;
+    font-weight: 900;
+    line-height: 25px;
+    font-size: 18px;
+    text-align: center;
+    color: #FEFCF7;
+    background: #0E8784;
+    border-radius: 6px;
+    transition: all 0.5s linear;
+}
+
+@mixin  contact-hover {
+    background-color: #66D2CF;
+    color: #FEFCF7;
+}

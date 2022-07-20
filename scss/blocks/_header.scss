@@ -1,0 +1,22 @@
+
+.site-header{
+    padding: 44px 0;
+}
+.header , .header-list{
+    @include center(space-between);
+}
+.header__item + .header__item{
+    margin-left: 32px;
+}
+.header__item-link{
+    font-weight: 700;
+    line-height: 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #83888F;
+    transition: all 0.5s linear;
+}
+.header__item-link:hover{
+    color: #333D4B;
+}
