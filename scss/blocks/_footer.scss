@@ -1,0 +1,44 @@
+.footer{
+    width: 100%;
+    background: #2C343E;
+    padding: 47px 85px;
+    margin-bottom: 47px;
+    @include center (none);
+}
+.footer__item{
+    @include center(space-between);
+    margin-left: 103px;
+}
+.footer__contact{
+    margin-left: 330px;
+}
+.footer__contact a{
+    margin-left: 24px;
+}
+#facebook:hover{
+    fill:#3939fa;
+}
+
+#twitter:hover{
+    fill: #616bf5;
+}
+
+#instagram:hover{
+    fill: #ff5252;
+}
+.footer__list + .footer__list{
+    margin-left: 32px;
+}
+.footer__list a{
+    font-family: 'Barlow' , sans-serif;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: 700;
+    color: #83888F;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    letter-spacing: 0.923077px;
+}
+.footer__list a:hover{
+    color: #FEFCF7;
+}
